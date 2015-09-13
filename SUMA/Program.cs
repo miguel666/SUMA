@@ -8,8 +8,14 @@ namespace SUMA
 {
     class Program
     {
-        static void Main(string[] args)
+         public static void Main(string[] args)
         {
+            Console.WriteLine("dame el primer numero:");
+            int numero1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("dame el segundo numero:");
+            int numero2 = int.Parse(Console.ReadLine());
+
+
         }
     }
 }
