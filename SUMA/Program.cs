@@ -15,6 +15,10 @@ namespace SUMA
             Console.WriteLine("dame el segundo numero:");
             int numero2 = int.Parse(Console.ReadLine());
 
+            int resultado = numero1 + numero2;
+            Console.WriteLine("el resultado es : " + resultado);
+
+            Console.ReadLine();
 
         }
     }
